@@ -15,7 +15,7 @@ CREATE TABLE hibernate_sequence (
     next_val BIGINT(20)
 ) ENGINE = InnoDB;
 
-INSERT INTO hibernate_sequence VALUES (1);
+INSERT INTO hibernate_sequence VALUES (22);
 
 INSERT INTO computerpart(id, count, isImportant, name)
       VALUES (1, 4, 1, 'Материнские платы');
@@ -32,7 +32,7 @@ INSERT INTO computerpart(id, count, isImportant, name)
 INSERT INTO computerpart(id, count, isImportant, name)
       VALUES (7, 21, 1, 'Жесткие диски');
 INSERT INTO computerpart(id, count, isImportant, name)
-      VALUES (8, 3, 1, 'Дисководы');
+      VALUES (8, 3, 0, 'Дисководы');
 INSERT INTO computerpart(id, count, isImportant, name)
       VALUES (9, 9, 0, 'Веб-камеры');
 INSERT INTO computerpart(id, count, isImportant, name)
